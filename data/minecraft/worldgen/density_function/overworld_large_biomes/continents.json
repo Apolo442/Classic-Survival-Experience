@@ -1,0 +1,13 @@
+{
+  "type": "cache",
+  "input": {
+    "type": "slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "max",
+      "left": "continents:large/adjusted_continents",
+      "right": "continents:large/islands"
+    }
+  }
+}

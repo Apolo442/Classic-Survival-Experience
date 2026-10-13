@@ -1,0 +1,27 @@
+{
+  "type": "cache",
+  "input": {
+    "type": "slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "add",
+      "left": {
+        "type": "minecraft:noise",
+        "noise": "continents:large/spawn/ring3",
+        "xz_scale": 0.75,
+        "y_scale": 0.0
+      },
+      "right": {
+        "type": "mul",
+        "right": -1,
+        "left": {
+          "type": "minecraft:noise",
+          "noise": "continents:large/spawn/ring3",
+          "xz_scale": 0.73,
+          "y_scale": 0.0
+        }
+      }
+    }
+  }
+}

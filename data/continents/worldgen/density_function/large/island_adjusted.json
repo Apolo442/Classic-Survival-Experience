@@ -1,0 +1,26 @@
+{
+  "type": "add",
+  "left": "continents:large/island_squared",
+  "right": {
+    "type": "add",
+    "left": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+          "type": "min",
+          "left": 0.6,
+          "right": {
+            "type": "minecraft:noise",
+            "xz_scale": 0.25,
+            "y_scale": 0.0,
+            "noise": "continents:large/island_amount"
+          }
+        }
+      }
+    },
+    "right": -0.675
+  }
+}

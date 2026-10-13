@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "has_stackable": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew",
+              "minecraft:rabbit_stew",
+              "minecraft:beetroot_soup",
+              "minecraft:suspicious_stew",
+              "minecraft:potion",
+              "minecraft:splash_potion",
+              "minecraft:lingering_potion",
+              "minecraft:honey_bottle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_repaired": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:repair_cost": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stackable",
+      "has_repaired"
+    ]
+  ],
+  "rewards": {
+    "function": "classic_survival:convert_inventory"
+  }
+}

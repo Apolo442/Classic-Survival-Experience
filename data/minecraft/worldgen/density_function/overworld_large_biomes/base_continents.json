@@ -1,0 +1,21 @@
+{
+  "type": "add",
+  "left": {
+    "type": "minecraft:cache",
+    "input": {
+      "type": "minecraft:slice",
+      "axis": "y",
+      "coordinate": 0,
+      "input": {
+        "type": "minecraft:noise",
+        "xz_scale": 0.2,
+        "y_scale": 0.0,
+        "noise": "minecraft:continentalness_large",
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0.0,
+        "shift_z": "minecraft:shift_z"
+      }
+    }
+  },
+  "right": "continents:large/continent_bias"
+}

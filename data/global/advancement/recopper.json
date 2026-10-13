@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "Reduced Copper Chambers",
+    "description": "Reduces the ridiculous amount of copper generated within trial chambers...",
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:category_world_generation",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

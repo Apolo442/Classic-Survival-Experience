@@ -1,0 +1,38 @@
+{
+  "type": "add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": 0.25,
+    "right": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": "continents:centroid/ring1_sync",
+        "right": "continents:centroid/ring2_sync"
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": "continents:centroid/ring3_sync",
+        "right": "continents:centroid/ring4_sync"
+      }
+    }
+  },
+  "right": {
+    "type": "mul",
+    "left": 0.06,
+    "right": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+          "type": "minecraft:noise",
+          "xz_scale": 1,
+          "y_scale": 0.0,
+          "noise": "continents:island_noise"
+        }
+      }
+    }
+  }
+}

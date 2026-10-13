@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "World Generation:",
+    "description": "",
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

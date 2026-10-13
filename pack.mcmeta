@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 121,
+    "min_format": 121,
+    "max_format": 121,
+    "description": [
+      {
+        "text": "Classic Survival Experience",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": "\nContinentes, Cavernas, Minerios, Trial Chambers & Items (26.3)",
+        "color": "yellow"
+      }
+    ]
+  }
+}

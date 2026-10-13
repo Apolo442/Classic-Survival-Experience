@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:noise",
+      "xz_scale": 0.1425,
+      "y_scale": 0.0,
+      "noise": "continents:large/continent_bias"
+    }
+  }
+}
