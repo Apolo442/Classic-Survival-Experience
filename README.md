@@ -10,7 +10,9 @@ Um Datapack completo para Minecraft focado em aprimorar a experiência de sobrev
 * ⛏️ **Cavernas & Minérios:** Distribuição equilibrada de minérios (80% da raridade base para promover exploração), com túneis noodle mais orgânicos e interconectados.
 * 🌳 **Ambientes Vivos:** Florestas de bétula com árvores caídas detalhadas decoradas com fungos e cogumelos.
 * 🍯 **Melhorias de Qualidade de Vida (QoL):** Garrafas de mel agora agrupam em stacks de até **64**.
+* 👑 **Passividade dos Piglins com Trim Silence de Ouro:** Armadura completa com acabamento Silence em ouro garante aliança com Piglins normais.
 * 🧑‍🌾 **Sistema de Villagers Especiais:** Aldeões com profissões dedicadas, tabelas de trocas personalizadas, progressão de 5 níveis e mecânica de inflação dinâmica.
+
 
 ---
 
@@ -101,11 +103,12 @@ Este sistema permite transformar villagers comuns em **Villagers Especiais** com
 
 | Nível | Ofertas de Compra |
 | :--- | :--- |
-| **Nível 1 (Novice)** | • 32x Bife Cru (*Raw Beef*) ➔ 1 Esmeralda<br>• 32x Carne de Porco Crua (*Raw Porkchop*) ➔ 1 Esmeralda |
-| **Nível 2 (Apprentice)** | • 16x Ovos Comuns (*Egg*) ➔ 1 Esmeralda<br>• 16x Ovos Marrons (*Brown Egg*) ➔ 1 Esmeralda |
-| **Nível 3 (Journeyman)** | • 32x Carne de Carneiro Crua (*Raw Mutton*) ➔ 1 Esmeralda<br>• 16x Ovos Azuis (*Blue Egg*) ➔ 1 Esmeralda |
-| **Nível 4 (Expert)** | • 16x Frango Cru (*Raw Chicken*) ➔ 1 Esmeralda |
-| **Nível 5 (Master)** | • 16x Coelho Cru (*Raw Rabbit*) ➔ 1 Esmeralda |
+| **Nível 1 (Novice)** | • 32x Bife Cru (*Raw Beef*) ➔ 1 Esmeralda<br>• 32x Bife Assado (*Steak*) ➔ 1 Esmeralda<br>• 32x Carne de Porco Crua (*Raw Porkchop*) ➔ 1 Esmeralda<br>• 32x Carne de Porco Assada (*Cooked Porkchop*) ➔ 1 Esmeralda |
+| **Nível 2 (Apprentice)** | • 16x + 16x Ovos Comuns (*Egg*) ➔ 1 Esmeralda<br>• 16x + 16x Ovos Marrons (*Brown Egg*) ➔ 1 Esmeralda<br>• 16x + 16x Ovos Azuis (*Blue Egg*) ➔ 1 Esmeralda |
+| **Nível 3 (Journeyman)** | • 32x Carne de Carneiro Crua (*Raw Mutton*) ➔ 1 Esmeralda<br>• 32x Carne de Carneiro Assado (*Cooked Mutton*) ➔ 1 Esmeralda |
+| **Nível 4 (Expert)** | • 16x + 64x Frango Cru (*Raw Chicken*) ➔ 1 Esmeralda<br>• 16x + 64x Frango Assado (*Cooked Chicken*) ➔ 1 Esmeralda |
+| **Nível 5 (Master)** | • 32x Coelho Cru (*Raw Rabbit*) ➔ 1 Esmeralda<br>• 32x Coelho Assado (*Cooked Rabbit*) ➔ 1 Esmeralda |
+
 
 ---
 
@@ -135,7 +138,20 @@ Este sistema permite transformar villagers comuns em **Villagers Especiais** com
 
 ---
 
+## 👑 Passividade de Piglins (Trim Silence de Ouro)
+
+O datapack inclui uma mecânica especial para o acabamento de armadura mais raro do jogo:
+* **Condição:** Usar um conjunto completo de armadura (elmo, peitoral, calça e botas) onde todas as **4 peças** possuem o acabamento (*armor trim*) **Silence** feito com **Ouro** (`material: "minecraft:gold"`, `pattern: "minecraft:silence"`).
+* **Efeito:** Os Piglins normais tornam-se passivos e consideram o jogador um aliado, exatamente como se estivesse vestindo armadura de ouro convencional.
+* **Comportamento Vanilla Preservado:**
+  * **Piglin Brutes** continuam hostis e atacam normalmente.
+  * Se o jogador atacar um Piglin, a aliança é suspensa temporariamente por 30 segundos de fúria.
+  * O sistema de trocas (*bartering*) com lingotes de ouro funciona normalmente.
+
+---
+
 ## ⚡ Comandos de Teste e Invocação Direta
+
 
 Invoque um villager especial já pronto e configurado no nível 1:
 ```mcfunction

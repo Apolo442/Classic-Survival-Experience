@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "predicates": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          }
+        }
+      },
+      "chest": {
+        "predicates": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          }
+        }
+      },
+      "legs": {
+        "predicates": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          }
+        }
+      },
+      "feet": {
+        "predicates": {
+          "minecraft:trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          }
+        }
+      }
+    }
+  }
+}
